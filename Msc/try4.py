@@ -28,13 +28,12 @@ def update_Theme():
 
 # Initialize the switch based on the initial dark mode state
 initial_switch_state = 'on' if dark_mode else 'off'
-switch_1 = ctk.CTkSwitch(master=group_1b, text=f'Light Mode {initial_switch_state}', command=toggle_dark_mode, state=ctk.NORMAL)
+# switch_1 = ctk.CTkSwitch(master=group_1b, text=f'Light Mode {initial_switch_state}', command=toggle_dark_mode, state=ctk.NORMAL)
+switch_1 = ctk.CTkSwitch(master=group_1b, text=f'Light Mode {initial_switch_state}',
+                          command=toggle_dark_mode, offvalue=1)
 switch_1.pack()
 group_1b.pack()
 
-# The rest of your code...
-
 root.title("MOTOR CONTROL GUI:          ONE AXIS AUTOMATED DRILL")
 root.configure(background='lightblue')
-# root.after(1, update_plot)
 root.mainloop()
