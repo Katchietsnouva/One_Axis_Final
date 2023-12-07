@@ -29,7 +29,7 @@ try:
         dark_mode = True
     else:
         dark_mode = False
-        switch_1
+        # switch_1
         
 except Exception as e:
     print (f'A Theme Error has occurred: {e}')
