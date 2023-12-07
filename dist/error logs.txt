@@ -1,0 +1,93 @@
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+'config' is not implemented for CTk widgets. For consistency, always use 'configure' instead.
+
+
+
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+
+
+
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 1948, in __call__
+  File "customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+  File "run_motors.py", line 182, in <lambda>
+  File "run_motors.py", line 119, in send_command
+  File "serial\serialwin32.py", line 306, in write
+serial.serialutil.PortNotOpenError: Attempting to use a port that is not open
+Error: Cannot configure port, something went wrong. Original message: PermissionError(13, 'A device attached to the system is not functioning.', None, 31). Connection on COM4 not found.
+	
+
+
+
+Connection on Serial<id=0x1df53cc0a90, open=True>(port='COM4', baudrate=9600, bytesize=8, parity='N', stopbits=1, timeout=None, xonxoff=False, rtscts=False, dsrdtr=False) successful
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+'CTkLabel' object has no attribute 'ure'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 1948, in __call__
+  File "customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+  File "run_motors.py", line 181, in <lambda>
+  File "run_motors.py", line 119, in send_command
+  File "serial\serialwin32.py", line 325, in write
+serial.serialutil.SerialTimeoutException: Write timeout
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+invalid literal for int() with base 10: ''
+SWitching to light Mode
+SWitching to dark Mode
+
+
+
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+could not convert string to float: ''
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "tkinter\__init__.py", line 1948, in __call__
+  File "customtkinter\windows\widgets\ctk_button.py", line 554, in _clicked
+  File "run_motors.py", line 182, in <lambda>
+  File "run_motors.py", line 119, in send_command
+  File "serial\serialwin32.py", line 325, in write
+serial.serialutil.SerialTimeoutException: Write timeout
