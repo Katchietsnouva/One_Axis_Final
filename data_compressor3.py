@@ -41,6 +41,7 @@ def combine_and_save_csv(folder_path):
     print(f"Combined data saved to {output_file_path}")
 
 # Iterate through each subdirectory in the data folder
+# Iterate through each subdirectory in the data folder
 for subfolder in os.listdir(data_path):
     subfolder_path = os.path.join(data_path, subfolder)
     
