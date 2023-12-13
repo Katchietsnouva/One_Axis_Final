@@ -26,7 +26,6 @@ class DropWidget(QWidget):
                 # Your code to read and analyze the data goes here
                 print(f"Opened file: {file_path}")
 
-
                 df = pd.read_csv(file_path)
 
                 # Plot the data
@@ -46,6 +45,7 @@ class DropWidget(QWidget):
 
                 # Show the plot
                 plt.show()
+
 
 app = QApplication([])
 widget = DropWidget()
