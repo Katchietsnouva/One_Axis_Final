@@ -9,21 +9,21 @@ cleaned_path = os.path.join(project_path, 'data_compilation_cleaned')
 # Create the cleaned directory if it doesn't exist
 os.makedirs(cleaned_path, exist_ok=True)
 
-# Function to sample and save CSV files
-def sample_and_save_csv(file_path, interval=90):
+# Function to sample and save CSV files with a hard limit of 100 rows
+def sample_and_save_csv(file_path):
     # Read the CSV file
     data = pd.read_csv(file_path)
     
-    # Calculate the number of rows (excluding header)
+    # Calculate the total number of rows (excluding header)
     num_rows = len(data) - 1
     
     # Ensure there are enough rows to sample
-    if num_rows <= interval:
+    if num_rows <= 100:
         print(f"Skipping {file_path}: Not enough rows to sample.")
         return
-    
+
     # Calculate the sampling interval
-    sampling_interval = max(1, num_rows // interval)
+    sampling_interval = max(1, num_rows // 99)  # Use 99 to ensure at least 100 rows are included
     
     # Sample the data at approximate intervals
     sampled_data = data.iloc[::sampling_interval]

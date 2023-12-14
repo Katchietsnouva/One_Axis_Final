@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Define the data folder path
-data_folder_path = os.path.join(current_directory, 'data_compilation')
+data_folder_path = os.path.join(current_directory, 'data_compilation_cleaned')
 
 # Iterate through all files in the folder
 for filename in os.listdir(data_folder_path):
