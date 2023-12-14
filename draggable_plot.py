@@ -54,3 +54,5 @@ app.exec_()
 
 # Read the data from the CSV file
 
+# python -m PyInstaller.__main__ --onefile main.py 
+# python -m PyInstaller.__main__ --onefile draggable_plot.py

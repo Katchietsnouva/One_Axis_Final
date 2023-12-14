@@ -40,3 +40,4 @@ for filename in os.listdir(data_folder_path):
         plt.close()
 
 print(f'Finished processing all files in {data_folder_path}')
+
