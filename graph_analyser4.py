@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Define the data folder path
-data_folder_path = os.path.join(current_directory, 'data_compilation_cleaned')
+data_folder_path = os.path.join(current_directory, 'data_compilation')
 
 # Iterate through all files in the folder
 for filename in os.listdir(data_folder_path):
@@ -22,8 +22,8 @@ for filename in os.listdir(data_folder_path):
         plt.figure(figsize=(10, 6))
 
         # Plot each column
-        plt.plot(df['Vibration'], label='Vibration')
         plt.plot(df['Temperature'], label='Temperature')
+        plt.plot(df['Vibration'], label='Vibration')
         plt.plot(df['Force'], label='Force')
 
         # Customize the plot
