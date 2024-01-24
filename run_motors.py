@@ -36,7 +36,7 @@ except Exception as e:
     dark_mode =  False
 
 def toggle_dark_mode():
-    global dark_mode
+    global dark_mode    
     dark_mode=not dark_mode
     update_Theme()
 
